@@ -293,9 +293,9 @@ h2 {
     margin-bottom: 35px;
     color: #a9a7a7;
   }
-  div {
+  /* div {
     width: 70%;
-  }
+  } */
 }
 
 .email {
@@ -308,10 +308,16 @@ h2 {
 }
 .icons-contact {
   a {
+    width: 100%;
     margin-right: 20px;
     text-decoration: none;
   }
   i:hover {
     transform: scale(1.2);
+  }
+}
+@media (max-width: 200px) {
+  .icons-contact {
+    margin-right: 10px;
   }
 }
